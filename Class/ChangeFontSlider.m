@@ -12,6 +12,7 @@
     CGFloat spaceWidth;
     NSInteger count;
     CGFloat perWidth;
+    
 }
 @property(nonatomic, strong)NSArray *titleArray;
 @property(nonatomic, strong)NSMutableArray<UILabel *> *labels;

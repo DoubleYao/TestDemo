@@ -16,12 +16,12 @@ s.description  = <<-DESC
 循环滚动播放图片,自动播放,手动播放
 DESC
 
-s.homepage     = "https://github.com/DoubleYao/TestDemo"
+s.homepage     = "https://github.com/DoubleYao/TestDemo.git"
 s.license      = "MIT"
 s.author       = { "DoubleYao" => "apple_doubleyao@126.com" }
 s.platform     = :ios,'6.0'
 
-s.source       = { :git => "https://github.com/DoubleYao/TestDemo", :tag => "#{s.version}" }
+s.source       = { :git => "https://github.com/DoubleYao/TestDemo.git", :tag => "#{s.version}" }
 s.source_files = "TestDemo/Class/*.{h,m}"
 s.framework    = "UIKit"
 s.requires_arc = true
